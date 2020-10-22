@@ -33,7 +33,7 @@ const ArtistQuestionScreen = ({onAnswer, question}) => {
           <div className="track">
             <button className="track__button track__button--play" type="button"></button>
             <div className="track__status">
-              <audio>src={song.src}</audio>
+              <audio src={song.src}></audio>
             </div>
           </div>
         </div>
